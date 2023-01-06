@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components"
+import menuItemsGetters from "../adapters/menuItemsGetter";
 import MainHeader from "./MainHeader"
 
 type layoutProps = {
@@ -28,7 +29,7 @@ export default function Layout({
 
     return (
         <Root>
-            <MainHeader title={title} />
+            <MainHeader title={title} menu={menuItemsGetters()} />
             <Main>{children}</Main>
         </Root>
     )

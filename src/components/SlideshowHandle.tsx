@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import 'react-slideshow-image/dist/styles.css'
 import slideImagesGetter from '../adapters/slideImagesGetter';
+import Loading from './Loading';
 import Slideshow from './SlideShow';
 
 type props = {
@@ -21,7 +22,7 @@ export default function SlideshowHandle({ highLightText }: props) {
 
     if (!urlImageList) {
         return (
-            <p>Loading...</p>
+            <Loading height='100vh' />
         )
     }
 

@@ -18,6 +18,12 @@ const SlideShow = styled.div`
     & img {
         object-fit: cover;
     }
+    & button {
+        background: #00000090 !important;
+        backdrop-filter: blur(10px);
+        fill: #fff;
+        padding: .5rem;
+    }
 `;
 
 const Text = styled.p`
