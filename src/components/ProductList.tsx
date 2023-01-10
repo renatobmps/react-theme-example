@@ -8,21 +8,12 @@ type props = {
 
 const Grid = styled.div`
     display: grid;
-    grid-template-columns: repeat(auto-fit, calc(100vw / 1));
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     gap: 2rem 1rem;
     justify-content: center;
     &:hover > * {
         backdrop-filter: blur(10px);
         opacity: .7;
-    }
-    @media (min-width: 450px){
-        grid-template-columns: repeat(auto-fit, calc((100vw / 2) - 1rem));
-    }
-    @media (min-width: 600px){
-        grid-template-columns: repeat(auto-fit, calc((100vw / 3) - 1rem));
-    }
-    @media (min-width: 600px){
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 `;
 

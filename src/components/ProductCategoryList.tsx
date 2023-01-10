@@ -19,6 +19,7 @@ const Card = styled.a`
     color: ${props => props.theme.pallete.blue[700]};
     font-weight: 800;
     max-width: 10rem;
+    min-width: 8rem;
     overflow: hidden;
     padding: 0.5rem 1rem;
     text-align: center;
