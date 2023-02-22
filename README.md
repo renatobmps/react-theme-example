@@ -4,7 +4,7 @@ This project is a example to how to implement a theme system using React with Ty
 
 ## Running project and access
 
-You'll need to clone or downloading this repository. If you do download, you'll need to extract the project inside the .zip.
+You'll need to clone or downloading this repository. If you download it, you'll need to extract the project inside the .zip.
 
 With the project in your machine, you'll access the directory through a terminal with node.js access, installing npm dependences and you can run the React project on 3000 port.
 
